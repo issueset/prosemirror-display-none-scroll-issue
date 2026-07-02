@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://prosemirror.net/css/editor.css" />
+    <style>
+      #scroller {
+        height: 260px;
+        overflow-y: auto;
+        border: 1px solid #999;
+        padding: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+
+    <div id="scroller">
+      <div id="editor"></div>
+    </div>
+
+    <div style="display: none" id="content">
+      <p>filler 1</p>
+      <p>filler 2</p>
+      <p>filler 3</p>
+      <p>filler 4</p>
+      <p>filler 5</p>
+      <p>filler 6</p>
+      <p>filler 7</p>
+      <p>filler 8</p>
+      <p>ABC<code>HIDE</code>DEF</p>
+      <p>filler 9</p>
+      <p>filler 10</p>
+      <p>filler 11</p>
+      <p>filler 12</p>
+      <p>filler 13</p>
+      <p>filler 14</p>
+      <p>filler 15</p>
+      <p>filler 16</p>
+    </div>
+
+    <script type="module" src="/src/main.ts" defer></script>
+  </body>
+</html>
